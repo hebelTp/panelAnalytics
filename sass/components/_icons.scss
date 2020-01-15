@@ -1,0 +1,14 @@
+.link__icon, .top-bar__image, .page__calendar-image, .link__icon {
+fill: $sidebarFont-color;
+width: 20px;
+text-decoration: none;
+}
+
+.top-bar__notofication {
+    height: 10px;
+    width: 10px;
+    background-color: $sidebarLineActive-color;
+    margin-left: -10px;
+    margin-top: -20px;
+    border-radius: 5px;
+}

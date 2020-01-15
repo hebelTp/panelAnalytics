@@ -1,0 +1,12 @@
+.sidebar__toggle-btn{
+    position: absolute;
+    left: 160px;
+    top: 20px;
+    span {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: $sidebarFontActive-color;
+        margin: 5px 0px;
+    }
+}

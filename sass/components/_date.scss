@@ -1,0 +1,26 @@
+.page__calendar {
+    @include border-around();
+    height: 40px;
+    border-radius: 4px;
+    font-size: 14px;
+    input {
+        border: none;
+        outline: none;
+        color: $sidebarFont-color;
+    }
+    margin-right: 15px;
+}
+
+.page__calendar-item {
+    padding-left: 14px;
+        
+}
+.brake__verical {
+    width: 1px;
+    height: 35px;
+    border-right: 1px solid $sidebarFont-color;;
+}
+
+.page__calendar-image {
+    padding-right: 5px;
+}

@@ -1,0 +1,35 @@
+.top-bar {
+    position: fixed;
+    height: 68px;
+    width: 100%; 
+    background-color:$mainSection;
+    border-bottom: 0.5px solid $sidebarFont-color;
+}
+
+.top-bar__list  {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar__item-text, .top-bar__item-icon {
+    height: 68px;
+    flex-direction: row;
+    @include center();
+    @include border-horisontal();
+    padding: 0 20px;
+}
+
+.top-bar__name {
+    padding: 0 15px 0 15px;
+    font-size: 14px;
+    color: $loginName-color;
+} 
+.top-bar__sum {
+    padding: 0 15px 0 15px;
+    font-size: 15px;
+    color: $sidebarFont-color;
+}
